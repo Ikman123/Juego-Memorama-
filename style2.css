@@ -1,0 +1,28 @@
+body{ 
+    min-height: 100vh;
+    background-color: #f58562;
+    background-color: #67351e;
+    background-image: url("/img/fondo\ 2.PNG");
+    background-size: cover;
+}
+
+.boton {
+    background-color: #67351e;
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+    padding: 40px 80px;
+    font-size: 48px;
+    text-transform: uppercase;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 10px solid rgb(211, 55, 35);
+    text-decoration: none;
+    box-shadow: 0 0 20px rgb(0, 0, 0);
+}
+
+.boton:hover {
+    background-color: #8d401c;
+}
